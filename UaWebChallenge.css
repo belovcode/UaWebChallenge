@@ -1,0 +1,51 @@
+.logoNavbar {
+	margin-top: 1.5%;
+	padding-bottom: 30px;
+}
+.logo {
+	margin-left: 6%;
+	float: left;
+}
+.logoNavbar .navbar {
+	display: inline-block;
+	padding-top: 15px;
+}
+.logoNavbar .navbar li {
+	float: left;
+	margin-left: 10px;
+}
+.logoNavbar .navbar li a {
+	display: inline-block;
+	border-radius: 20px;
+	padding: 8px 15px;
+	text-decoration: none;
+	color: #2f93af;
+	font-weight: bold;
+	font-size: 120%;
+}
+.logoNavbar .navbar .signIn a{
+	color: #22b793;
+}
+.logoNavbar .navbar .signIn a:hover {
+	background-color: #22b793;
+	color: white;
+}
+.logoNavbar .navbar a:hover{
+	background-color: #33879e;
+	color: white;
+}
+.logoNavbar .burstForConsumers {
+	display: inline-block;
+	text-decoration: none;
+	float: right;
+	margin-right: 5px;
+	margin-top: 20px;
+	color: #2f93af; 
+	font-size: 110%;
+}
+.logoNavbar .circle {
+	float: right;
+	margin-right: 7%;
+	margin-top: 12px;
+}
+
