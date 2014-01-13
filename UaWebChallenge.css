@@ -1,5 +1,5 @@
 body {
-	min-width: 1050px;
+	min-width: 1100px;
 }
 .endFlow {
 	clear: both;
@@ -10,9 +10,12 @@ body {
 	padding-right: 2%;
 	padding-bottom: 30px;
 }
+.burstLogo {
+	padding-left: 5%;
+}
 .burstLogo, .link {
 	float: left;
-	width: 28%;
+	width: 25%;
 }
 .bar {
 	float: left;
@@ -66,10 +69,91 @@ body {
 	background-image: url(img/pole.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 250px;
+	height: 310px;
 }
 .pole .telefon {
+	/*border: solid thin;*/
 	float: left;
-	margin-top: 1em;
-	margin-left: 10%;
+	margin-top: 2.5em;
+	margin-left: 16%;
+}
+.pole .poleText {
+	/*border: solid thin;*/
+	float: left;
+	margin-top: 3.5em;
+	margin-left: 3%; 
+}
+.blockButtonVievDemo {
+	/*border: solid thin;*/
+	background-color: rgba(0, 0, 0, 0.2);
+	display: inline-block;
+	padding: 5px;
+	border-radius: 40px;
+	margin-top: 20px;
+}
+.blockButtonVievDemo a {
+	text-decoration: none;
+	display: inline-block;
+}
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bolder;
+	color: #ffffff;
+	padding: 11px 25px;
+	background: -moz-linear-gradient(
+		top,
+		#2bafce 0%,
+		#0084b3);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#2bafce),
+		to(#0084b3));
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	border-radius: 26px;
+	border: 0px solid #7d0000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	text-shadow:
+		3px -1px 0px rgba(82,177,250,0.4),
+		0px -1px 0px rgba(8,2,8,0.2);
+}
+button.css3button:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bolder;
+	color: #ffffff;
+	padding: 11px 25px;
+	background: -moz-linear-gradient(
+		top,
+		#0084b3 0%,
+		#2bafce); 
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#0084b3),
+		to(#2bafce));
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	border-radius: 26px;
+	border: 0px solid #7d0000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	text-shadow:
+		3px -1px 0px rgba(82,177,250,0.4),
+		0px -1px 0px rgba(8,2,8,0.2);
 }
