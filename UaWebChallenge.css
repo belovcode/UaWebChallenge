@@ -1,70 +1,71 @@
 body {
-	min-width: 1100px;
+	min-width: 1050px;
 }
 .endFlow {
 	clear: both;
 }
-.logoNavbar {
-	margin-top: 1em;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 30px;
+.topBar td {
+	padding-top: 15px;
+	padding-bottom: 20px;
 }
-.burstLogo {
-	padding-left: 5%;
+.topBar .columImgBurst {
+	padding-left: 3em;
 }
-.burstLogo, .link {
-	float: left;
-	width: 25%;
+.topBar .columImgBurst img {
+	margin: 0px auto;
+	display: block;
 }
-.bar {
-	float: left;
-	width: 43%;
+.topBar .bar {
+	padding-left: 1em;
 }
-.logoNavbar .navbar {
+.topBar tr .navbar {
 	display: block;
 	width: 480px;
 	margin: 0px auto;
 	padding-top: 15px;
 }
-.logoNavbar .navbar li {
+.topBar tr .navbar li {
 	float: left;
 	margin-left: 10px;
 }
-.logoNavbar .navbar li a {
+.topBar tr .navbar li a {
 	display: inline-block;
 	border-radius: 20px;
 	padding: 8px 15px;
 	text-decoration: none;
 	color: #2f93af;
-	font-weight: bold;
-	font-size: larger;
+	font-weight: 600;
+	font-size: 18px;
+	font-family: arial;
 }
-.logoNavbar .navbar .signIn a{
+.topBar tr .navbar .signIn a{
 	color: #22b793;
 }
-.logoNavbar .navbar .signIn a:hover {
+.topBar tr .navbar .signIn a:hover {
 	background-color: #22b793;
 	color: white;
 }
-.logoNavbar .navbar a:hover{
+.topBar tr .navbar a:hover{
 	background-color: #33879e;
 	color: white;
 }
-.logoNavbar .burstForConsumers {
+.topBar tr .burstForConsumers {
 	display: inline-block;
 	text-decoration: none;
 	float: right;
 	margin-right: 5px;
 	margin-top: 20px;
 	color: #2f93af; 
-	font-size: larger;
+	font-weight: medium;
+	font-size: 15px;
+	font-family: arial;
 }
-.logoNavbar .circle {
+.topBar tr .circle {
 	float: right;
-	margin-right: 3em;
+	margin-right: 4.5em;
 	margin-top: 12px;
 }
+
 .pole {
 	background-image: url(img/pole.jpg);
 	background-size: cover;
@@ -72,19 +73,16 @@ body {
 	height: 310px;
 }
 .pole .telefon {
-	/*border: solid thin;*/
 	float: left;
 	margin-top: 2.5em;
-	margin-left: 16%;
+	margin-left: 15.5%;
 }
 .pole .poleText {
-	/*border: solid thin;*/
 	float: left;
 	margin-top: 3.5em;
-	margin-left: 3%; 
+	margin-left: 4.5%; 
 }
 .blockButtonVievDemo {
-	/*border: solid thin;*/
 	background-color: rgba(0, 0, 0, 0.2);
 	display: inline-block;
 	padding: 5px;
@@ -157,3 +155,133 @@ button.css3button:active {
 		3px -1px 0px rgba(82,177,250,0.4),
 		0px -1px 0px rgba(8,2,8,0.2);
 }
+.capturePublishMonetize {
+	background-image: url(img/background_color.jpg);
+	height: 190px; 
+	padding: 0px 8%;
+}
+
+.capturePublishMonetize div {
+	float: left;
+	margin-top: 5px;
+}
+.capturePublishMonetize .cpm {
+	width: 29%;
+	height: 180px;
+}
+.capturePublishMonetize .strelka {
+	width: 6%;
+	height: 100px;
+	margin-top: 35px;
+}
+.capturePublishMonetize div img {
+	display: block;
+}
+.capturePublishMonetize span {
+	color: #64868f;
+	font-weight: medium;
+	font-size: 15px;
+	font-family: arial;
+	display: block;
+	text-align: center;
+}
+.capturePublishMonetize img, span {
+	margin: 0.8em auto;
+}
+
+.bar3 {
+	padding-top: 18px;
+	padding-left: 6%;
+}
+.bar3 .imgText {
+	float: left;
+	width: 23%;
+	height: 300px;
+}
+.bar3 img, span {
+	display: block;
+	text-align: center;
+}
+.bar3 div img {
+	margin: 0px auto;
+}
+.bar3 .imgText .shortText {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: arial;
+	color: #4e4e4e;
+}
+.bar3 .imgText .longText {
+	padding: 0px 20px;
+	color: #9c9c9c;
+	font-size: 15px;
+	font-family: arial;
+	line-height: 19px;
+}
+.viewAFButtonBlock {
+	margin: 35px auto;
+}
+.viewAFButton{text-decoration:none; text-align:center; 
+ padding:10px 30px; 
+ border:solid 1px #7bcbb8; 
+ -webkit-border-radius:29px;
+ -moz-border-radius:29px; 
+ border-radius: 29px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#7bcbb8; 
+ background:#ffffff; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  }
+  .viewAFButton font {
+  	font-size: 25px;
+  	margin-left: 15px;
+  }
+
+  .bottomBar {
+  	margin-top: 3%;
+  	background-color: #295b69;
+  	height: 130px;
+  	font-family: arial;
+  	font-size: 12px;
+  }
+  .bottomBar .textBlock {
+  	float: left;
+  	padding-top: 25px;
+  }
+  .bottomBar span {
+  	text-align: left;
+  	color: #7898a0;
+  }
+  .bottomBar .textBlock #textBlockId {
+  	margin-top: 0px;
+  }
+  .bottomBar .textBlockOtstup {
+  	margin-left: 7%;
+  }
+  .bottomBar .imgBlock {
+  	float: right;
+  	margin-right: 7%;
+  	padding-top: 15px;
+  }
+  .bottomBar .textBlock a {
+  	text-decoration: none;
+  	color: #d5dbde;
+  }
+  .bottomBar hr {
+  	margin-top: 10px;
+  }
+  .bottomBar .privatTemsBurst {
+  	float: left;
+  	text-decoration: none;
+  	color: #7898a0;
+  	font-family: arial;
+  	font-size: 12px;
+  	margin-top: 10px;
+  }
+  .bottomBar .teamBurst {
+  	margin: 10px 2%;
+  }
