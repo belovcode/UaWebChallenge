@@ -4,6 +4,9 @@ body {
 .endFlow {
 	clear: both;
 }
+.topBar {
+	width: 100%;
+}
 .topBar td {
 	padding-top: 15px;
 	padding-bottom: 20px;
